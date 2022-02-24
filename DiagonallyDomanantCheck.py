@@ -56,9 +56,9 @@ def findStepsForDDM(arr,N):
 
 # Driver Code
 n = 3
-m = [[0, 0, 0],
-     [0, 0, 0],
-     [0, 0, 0]]
+m = [[3, -2, 1],
+     [1, -3, 2],
+     [-1, 2, 4]]
 
 if ((isDDM(m, n))):
     print("The matrix is diagonally dominant")
